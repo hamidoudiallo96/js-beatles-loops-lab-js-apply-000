@@ -11,6 +11,18 @@ const johnLennonFacts = arr =>{
   let newArr = []
   let i = 0
   while(i<arr.length){
-    
+    newArr.push(arr[i]+"!!!")
+    i+=1
   }
+  return newArr
+}
+
+const iLoveTheBeatles = num =>{
+  let arr = []
+  do{
+    arr.push('I love the Beatles!')
+    num+=1
+    
+  }while(num<15)
+  return arr
 }
